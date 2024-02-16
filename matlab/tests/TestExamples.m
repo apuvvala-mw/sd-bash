@@ -17,7 +17,7 @@ classdef (SharedTestFixtures={matlab.unittest.fixtures.PathFixture(fullfile(".."
 
     % Copyright 2022 The MathWorks, Inc.
 
-    methods (Test)
+    methods (Test, TestTags="tag1")
 
         function testNonLeapYear(testCase)
             % Create non-leap year date of March 1st, 2021
